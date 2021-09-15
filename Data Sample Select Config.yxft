@@ -1,0 +1,61 @@
+<YXFT>
+  <fields>
+    <field name="StoreID" type="V_String" size="254" description="" />
+    <field name="City" type="V_String" size="254" description="" />
+    <field name="State" type="V_String" size="254" description="" />
+    <field name="Date Last Winter Freeze" type="Date" size="10" description="" />
+    <field name="Date First Winter Freeze" type="Date" size="10" description="" />
+    <field name="Growing Season Length" type="Int64" size="8" description="" />
+    <field name="Jan Prec" type="Float" size="4" description="" />
+    <field name="Feb Prec" type="Float" size="4" description="" />
+    <field name="Mar Prec" type="Float" size="4" description="" />
+    <field name="Apr Prec" type="Float" size="4" description="" />
+    <field name="May Prec" type="Float" size="4" description="" />
+    <field name="Jun Prec" type="Float" size="4" description="" />
+    <field name="Jul Prec" type="Float" size="4" description="" />
+    <field name="Aug Prec" type="Float" size="4" description="" />
+    <field name="Sep Prec" type="Float" size="4" description="" />
+    <field name="Oct Prec" type="Float" size="4" description="" />
+    <field name="Nov Prec" type="Float" size="4" description="" />
+    <field name="Dec Prec" type="Float" size="4" description="" />
+    <field name="Jan Rain" type="Float" size="4" description="" />
+    <field name="Feb Rain" type="Float" size="4" description="" />
+    <field name="Mar Rain" type="Float" size="4" description="" />
+    <field name="Apr Rain" type="Float" size="4" description="" />
+    <field name="May Rain" type="Float" size="4" description="" />
+    <field name="Jun Rain" type="Float" size="4" description="" />
+    <field name="Jul Rain" type="Float" size="4" description="" />
+    <field name="Aug Rain" type="Float" size="4" description="" />
+    <field name="Sep Rain" type="Float" size="4" description="" />
+    <field name="Oct Rain" type="Float" size="4" description="" />
+    <field name="Nov Rain" type="Float" size="4" description="" />
+    <field name="Dec Rain" type="Float" size="4" description="" />
+    <field name="Jan Snow" type="Float" size="4" description="" />
+    <field name="Feb Snow" type="Float" size="4" description="" />
+    <field name="Mar Snow" type="Float" size="4" description="" />
+    <field name="Apr Snow" type="Float" size="4" description="" />
+    <field name="May Snow" type="Float" size="4" description="" />
+    <field name="Jun Snow" type="Float" size="4" description="" />
+    <field name="Jul Snow" type="Float" size="4" description="" />
+    <field name="Aug Snow" type="Float" size="4" description="" />
+    <field name="Sep Snow" type="Float" size="4" description="" />
+    <field name="Oct Snow" type="Float" size="4" description="" />
+    <field name="Nov Snow" type="Float" size="4" description="" />
+    <field name="Dec Snow" type="Float" size="4" description="" />
+    <field name="Jan Temp" type="Float" size="4" description="" />
+    <field name="Feb Temp" type="Float" size="4" description="" />
+    <field name="Mar Temp" type="Float" size="4" description="" />
+    <field name="Apr Temp" type="Float" size="4" description="" />
+    <field name="May Temp" type="Float" size="4" description="" />
+    <field name="Jun Temp" type="Float" size="4" description="" />
+    <field name="Jul Temp" type="Float" size="4" description="" />
+    <field name="Aug Temp" type="V_WString" size="254" description="" />
+    <field name="Sep Temp" type="Float" size="4" description="" />
+    <field name="Oct Temp" type="Float" size="4" description="" />
+    <field name="Nov Temp" type="Float" size="4" description="" />
+    <field name="Dec Temp" type="Float" size="4" description="" />
+    <field name="Elevation" type="Double" size="8" description="" />
+    <field name="Longitude" type="Double" size="8" description="" />
+    <field name="Latitude" type="Double" size="8" description="" />
+  </fields>
+</YXFT>

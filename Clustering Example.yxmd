@@ -1,0 +1,436 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>climate-data-sample.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="City" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="State" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Date Last Winter Freeze" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Date First Winter Freeze" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Growing Season Length" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Jan Avg Tot Prec" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Feb Avg Tot Prec" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Mar Avg Tot Prec" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Apr Avg Tot Prec" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="May Avg Tot Prec" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Jun Avg Tot Prec" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Jul Avg Tot Prec" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Aug Avg Tot Prec" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Sep Avg Tot Prec" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Oct Avg Tot Prec" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Nov Avg Tot Prec" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Dec Avg Tot Prec" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Jan Avg Rain" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Feb Avg Rain" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Mar Avg Rain" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Apr Avg Rain" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="May Avg Rain" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Jun Avg Rain" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Jul Avg Rain" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Aug Avg Rain" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Sep Avg Rain" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Oct Avg Rain" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Nov Avg Rain" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Dec Avg Rain" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Jan Avg Snow" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Feb Avg Snow" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Mar Avg Snow" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Apr Avg Snow" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="May Avg Snow" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Jun Avg Snow" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Jul Avg Snow" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Aug Avg Snow" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Sep Avg Snow" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Oct Avg Snow" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Nov Avg Snow" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Dec Avg Snow" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Jan Avg Temp" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Feb Avg Temp" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Mar Avg Temp" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Apr Avg Temp" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="May Avg Temp" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Jun Avg Temp" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Jul Avg Temp" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Aug Avg Temp" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Sep Avg Temp" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Oct Avg Temp" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Nov Avg Temp" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Dec Avg Temp" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Elevation" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: G:\Udacity\Predictive Analytics\Time-Series Forecasting\Clustering Example\climate-data-sample.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="162" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Date Last Winter Freeze" selected="True" type="Date" size="10" />
+            <SelectField field="Date First Winter Freeze" selected="True" type="Date" size="10" />
+            <SelectField field="Growing Season Length" selected="True" type="Int64" size="8" />
+            <SelectField field="Jan Avg Tot Prec" selected="True" rename="Jan Prec" type="Float" size="4" />
+            <SelectField field="Feb Avg Tot Prec" selected="True" rename="Feb Prec" type="Float" size="4" />
+            <SelectField field="Mar Avg Tot Prec" selected="True" rename="Mar Prec" type="Float" size="4" />
+            <SelectField field="Apr Avg Tot Prec" selected="True" rename="Apr Prec" type="Float" size="4" />
+            <SelectField field="May Avg Tot Prec" selected="True" rename="May Prec" type="Float" size="4" />
+            <SelectField field="Jun Avg Tot Prec" selected="True" rename="Jun Prec" type="Float" size="4" />
+            <SelectField field="Jul Avg Tot Prec" selected="True" rename="Jul Prec" type="Float" size="4" />
+            <SelectField field="Aug Avg Tot Prec" selected="True" rename="Aug Prec" type="Float" size="4" />
+            <SelectField field="Sep Avg Tot Prec" selected="True" rename="Sep Prec" type="Float" size="4" />
+            <SelectField field="Oct Avg Tot Prec" selected="True" rename="Oct Prec" type="Float" size="4" />
+            <SelectField field="Nov Avg Tot Prec" selected="True" rename="Nov Prec" type="Float" size="4" />
+            <SelectField field="Dec Avg Tot Prec" selected="True" rename="Dec Prec" type="Float" size="4" />
+            <SelectField field="Jan Avg Rain" selected="True" rename="Jan Rain" type="Float" size="4" />
+            <SelectField field="Feb Avg Rain" selected="True" rename="Feb Rain" type="Float" size="4" />
+            <SelectField field="Mar Avg Rain" selected="True" rename="Mar Rain" type="Float" size="4" />
+            <SelectField field="Apr Avg Rain" selected="True" rename="Apr Rain" type="Float" size="4" />
+            <SelectField field="May Avg Rain" selected="True" rename="May Rain" type="Float" size="4" />
+            <SelectField field="Jun Avg Rain" selected="True" rename="Jun Rain" type="Float" size="4" />
+            <SelectField field="Jul Avg Rain" selected="True" rename="Jul Rain" type="Float" size="4" />
+            <SelectField field="Aug Avg Rain" selected="True" rename="Aug Rain" type="Float" size="4" />
+            <SelectField field="Sep Avg Rain" selected="True" rename="Sep Rain" type="Float" size="4" />
+            <SelectField field="Oct Avg Rain" selected="True" rename="Oct Rain" type="Float" size="4" />
+            <SelectField field="Nov Avg Rain" selected="True" rename="Nov Rain" type="Float" size="4" />
+            <SelectField field="Dec Avg Rain" selected="True" rename="Dec Rain" type="Float" size="4" />
+            <SelectField field="Jan Avg Snow" selected="True" rename="Jan Snow" type="Float" size="4" />
+            <SelectField field="Feb Avg Snow" selected="True" rename="Feb Snow" type="Float" size="4" />
+            <SelectField field="Mar Avg Snow" selected="True" rename="Mar Snow" type="Float" size="4" />
+            <SelectField field="Apr Avg Snow" selected="True" rename="Apr Snow" type="Float" size="4" />
+            <SelectField field="May Avg Snow" selected="True" rename="May Snow" type="Float" size="4" />
+            <SelectField field="Jun Avg Snow" selected="True" rename="Jun Snow" type="Float" size="4" />
+            <SelectField field="Jul Avg Snow" selected="True" rename="Jul Snow" type="Float" size="4" />
+            <SelectField field="Aug Avg Snow" selected="True" rename="Aug Snow" type="Float" size="4" />
+            <SelectField field="Sep Avg Snow" selected="True" rename="Sep Snow" type="Float" size="4" />
+            <SelectField field="Oct Avg Snow" selected="True" rename="Oct Snow" type="Float" size="4" />
+            <SelectField field="Nov Avg Snow" selected="True" rename="Nov Snow" type="Float" size="4" />
+            <SelectField field="Dec Avg Snow" selected="True" rename="Dec Snow" type="Float" size="4" />
+            <SelectField field="Jan Avg Temp" selected="True" rename="Jan Temp" type="Float" size="4" />
+            <SelectField field="Feb Avg Temp" selected="True" rename="Feb Temp" type="Float" size="4" />
+            <SelectField field="Mar Avg Temp" selected="True" rename="Mar Temp" type="Float" size="4" />
+            <SelectField field="Apr Avg Temp" selected="True" rename="Apr Temp" type="Float" size="4" />
+            <SelectField field="May Avg Temp" selected="True" rename="May Temp" type="Float" size="4" />
+            <SelectField field="Jun Avg Temp" selected="True" rename="Jun Temp" type="Float" size="4" />
+            <SelectField field="Jul Avg Temp" selected="True" rename="Jul Temp" type="Float" size="4" />
+            <SelectField field="Aug Avg Temp" selected="True" rename="Aug Temp" type="V_WString" size="254" />
+            <SelectField field="Sep Avg Temp" selected="True" rename="Sep Temp" type="Float" size="4" />
+            <SelectField field="Oct Avg Temp" selected="True" rename="Oct Temp" type="Float" size="4" />
+            <SelectField field="Nov Avg Temp" selected="True" rename="Nov Temp" type="Float" size="4" />
+            <SelectField field="Dec Avg Temp" selected="True" rename="Dec Temp" type="Float" size="4" />
+            <SelectField field="Elevation" selected="True" type="Double" size="8" />
+            <SelectField field="Longitude" selected="True" type="Double" size="8" />
+            <SelectField field="Latitude" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="258" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Latitude" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Latitude - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings>
+        <Position x="366" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">StoreID=True,City=True,State=True,Date Last Winter Freeze=True,Date First Winter Freeze=True,Growing Season Length=True,Jan Avg Tot Prec=True,Feb Avg Tot Prec=True,Mar Avg Tot Prec=True,Apr Avg Tot Prec=True,May Avg Tot Prec=True,Jun Avg Tot Prec=True,Jul Avg Tot Prec=True,Aug Avg Tot Prec=True,Sep Avg Tot Prec=True,Oct Avg Tot Prec=True,Nov Avg Tot Prec=True,Dec Avg Tot Prec=True,Jan Avg Rain=True,Feb Avg Rain=True,Mar Avg Rain=True,Apr Avg Rain=True,May Avg Rain=True,Jun Avg Rain=True,Jul Avg Rain=True,Aug Avg Rain=True,Sep Avg Rain=True,Oct Avg Rain=True,Nov Avg Rain=True,Dec Avg Rain=True,Jan Avg Snow=True,Feb Avg Snow=True,Mar Avg Snow=True,Apr Avg Snow=True,May Avg Snow=True,Jun Avg Snow=True,Jul Avg Snow=True,Aug Avg Snow=True,Sep Avg Snow=True,Oct Avg Snow=True,Nov Avg Snow=True,Dec Avg Snow=True,Jan Avg Temp=True,Feb Avg Temp=True,Mar Avg Temp=True,Apr Avg Temp=True,May Avg Temp=True,Jun Avg Temp=True,Jul Avg Temp=True,Aug Avg Temp=True,Sep Avg Temp=True,Oct Avg Temp=True,Nov Avg Temp=True,Dec Avg Temp=True,Elevation=True,Longitude=True,Latitude=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="462" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\inkbe\AppData\Local\Temp\Engine_16620_df43d7b67ef541b28224aa6c182ee134_\Engine_12056_bc0c01da476e4638865788012bef1870_.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="462" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\inkbe\AppData\Local\Temp\Engine_16620_df43d7b67ef541b28224aa6c182ee134_\Engine_12056_796c4b1bdd6b4d31b7637037ffdf1872_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="462" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\inkbe\AppData\Local\Temp\Engine_16620_df43d7b67ef541b28224aa6c182ee134_\Engine_12056_35353b4def9145108b55b4d2f700aa26_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="570" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeDiff([Date Last Winter Freeze],&quot;2009-04-23&quot;,'days')" field="LastWinterFreezeDiff" size="4" type="Int32" />
+            <FormulaField expression="DateTimeDiff([Date First Winter Freeze],&quot;2009-10-06&quot;,'days')" field="FirstWinterFreezeDiff" size="4" type="Int32" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>LastWinterFreezeDiff = DateTimeDiff([Date Last Winter Freeze],"2009-04-23",'days...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="666" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\inkbe\AppData\Local\Temp\Engine_16620_df43d7b67ef541b28224aa6c182ee134_\Engine_12056_e5463a5055f246709c8b8023516c5bf9_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="666" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">G:\Udacity\Predictive Analytics\Time-Series Forecasting\ETS\Example\Data Prep Exercise Results.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Data Prep Exercise Results.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Reports" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Interactive" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Clustering Example</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="d6456187-f983-47e0-98b2-1502684af9ee" />
+      <Telemetry>
+        <PreviousWorkflowId value="57bfc75e-5eb1-48c5-ae35-7086c5e424a4" />
+        <OriginWorkflowId value="d6456187-f983-47e0-98b2-1502684af9ee" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
